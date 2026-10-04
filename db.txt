@@ -369,14 +369,18 @@ country CL: DFS-JP
 # https://wap.miit.gov.cn/cms_files/filemanager/1226211233/attach/20219/d125301b13454551b698ff5afa49ca28.pdf
 # Note: The transmit power for 5150-5350MHz bands can be raised by 3dBm when TPC is implemented
 country CN: DFS-FCC
-	(2400 - 2483.5 @ 40), (20)
-	(5150 - 5350 @ 80), (20), DFS, AUTO-BW
-	(5725 - 5850 @ 80), (33)
+	(2402 - 2472 @ 40), (30)
+	(5150 - 5250 @ 80), (30), AUTO-BW
+	(5250 - 5350 @ 80), (30), AUTO-BW
+	(5470 - 5600 @ 80), (30)
+	(5650 - 5730 @ 80), (30)
+	(5735 - 5835 @ 80), (30)
+	(5925 - 7125 @ 320), (30)
 	# 60 GHz band channels 1,4: 28dBm, channels 2,3: 44dBm
 	# ref: http://www.miit.gov.cn/n11293472/n11505629/n11506593/n11960250/n11960606/n11960700/n12330791.files/n12330790.pdf
-	(57240 - 59400 @ 2160), (28)
+	(57240 - 59400 @ 2160), (30)
 	(59400 - 63720 @ 2160), (44)
-	(63720 - 65880 @ 2160), (28)
+	(63720 - 65880 @ 2160), (30)
 
 country CO: DFS-FCC
 	(2402 - 2482 @ 40), (20)
